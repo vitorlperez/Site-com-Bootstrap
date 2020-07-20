@@ -5,15 +5,15 @@ body{
 ul{
     padding: 0px!important;
 }
-.menu-principal{
-    width: 100%;
-    background-color: #292828;
-    height: 60px;
-}
 main{
     margin: 0 auto;
     width: 980px;
     position: relative;
+}
+.menu-principal{
+    width: 100%;
+    background-color: #292828;
+    height: 60px;
 }
 .logo{
     float: left;
@@ -21,7 +21,7 @@ main{
     width: 70%;
 }
 .redes-sociais ul li {
-    margin-left: 15px;
+    margin-left: 25px;
     display: inline-block;
     float: left;
 }
@@ -43,24 +43,70 @@ main{
 .menu ul li{
     display: inline-block;
     color: #8b8b8b;
-    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 5px;
+    height: 50px;
+}
+.menu ul li:hover {
+    border-bottom: 2px solid #00bac6;
+}
+.menu ul li a:hover {
+    color: #00bac6;
 }
 .menu ul a{
     color: #8b8b8b;
     text-decoration: none;
     font-size: 18px;
     text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .menu{
     width: 70%;
     float: left;
 }
 .busca{
-    width: 30%;
+    width: 20%;
     float: right;
+    text-align: center;
+    margin-right: 60px;
+}
+.busca input{
+    background-image: url('../img/iconeSearch.png');
+    background-repeat: no-repeat;
+    background-position: 95%;
+    height: 36px;
+    padding: 12px;
+    width: 190px;
+    border: 1px solid #d6d6d6;
 }
 .col-100{
     width: 100%;
     float: left;
     position: relative;
+}
+button.slick-prev{
+    display: inline-block;
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    background-color: transparent;
+    height: 51px;
+    z-index: 9;
+    position: absolute;
+    top: 35%;
+    background-image: url('../img/left-row.png');
+    left: 15%;
+}
+button.slick-next{
+    display: inline-block;
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    background-color: transparent;
+    height: 51px;
+    z-index: 9;
+    position: absolute;
+    top: 35%;
+    background-image: url('../img/right-row.png');
+    right: 15%;
 }
